@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>ksp</title>
+    <link rel="stylesheet" href="css.css" />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+    <meta charset="utf-8"></meta>
+    <script src="js.js"></script>
+    
+</head>
+<body>
+
+
+    <div class="box" id="under_box">
+           <h1>Pelaaja : </h1>
+        <ul>
+            <li id="kivi">Kivi</li>
+             <li id="paperi">Paperi</li>
+             <li id="sakset">Sakset</li>
+            
+        </ul>
+        
+    </div>
+      
+    <div class="box" id="top_box">
+        
+            <h1 id="score_txt">Pisteesi : <b id="score">0</b></h1>
+            <h1 id="bot_txt">botti : </h1>
+       
+    <!-- bot's buttons-->
+         <ul id="bot_buttons">
+            <li id="bot_kivi">Kivi</li>
+             <li id="bot_paperi">Paperi</li>
+             <li id="bot_sakset">Sakset</li>
+            
+        </ul>
+    
+        
+          
+     
+        
+    </div>
+  
+    <div id="center_box">
+        
+        <h1 id="winning_txt"></h1>
+        <!-- player's images-->
+        <img id="kivi_img" style="display:none;" src="kivi.png"/>
+        <img id="paperi_img" style="display:none;"  src="paperi.png"/>
+        <img id="sakset_img" style="display:none;"  src="sakset.png"/>
+        
+        <!-- bot's images-->
+        <img id="bot_kivi_img" style="display:none;"  src="kivi.png"/>
+        <img id="bot_paperi_img" style="display:none;"  src="paperi.png"/>
+        <img id="bot_sakset_img" style="display:none;"  src="sakset.png"/>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+body{
+    overflow: hidden;
+}
+.box{
+    background-color: #292E35;
+    width:100%;
+    height: 200px;
+    margin: auto;
+    position: absolute;
+    color:white;
+    font-family: sans-serif;
+    text-align: center;
+}
+/*bottom box*/
+#under_box{
+    bottom:0px;
+    left:0px;
+    
+}
+
+#under_box ul{
+    display: inline-flex;
+}
+#under_box li{
+    margin: 30px;
+    color:white;
+    font-family: sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+/*top box*/
+
+#top_box{
+    left:0px;
+    top:0px;
+}
+#bot_buttons{
+    display: inline-flex;
+    
+}
+#bot_buttons li{
+    margin: 30px;
+    color:white;
+    font-family: sans-serif;
+    font-size: 20px;
+    cursor: default;
+}
+#score_txt{
+    float:left;
+    font-size: 20px;
+}
+#bot_txt{
+    text-align: center;
+    
+}
+/*center box */
+#center_box{
+    width: 100%;
+    height:300px;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 200px;
+}
+
+#center_box img{
+    margin: 40px;
+}
+
+#winning_txt{
+    font-family: sans-serif;
+    font-size: 40px;
+    width: 100%;
+    background-color:red;
+    color:black;
+   
+}
+
+@media only screen and (max-width: 600px) {
+  #center_box img {
+      display: inline-flex;
+      width:80px;
+      height: 80px;
+      margin-top: 0px;
+}
+    #center_box{
+        margin-top: 60%;
+        height: 200px;
+    }
+}
